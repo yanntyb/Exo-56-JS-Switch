@@ -4,22 +4,22 @@ let phrase = "j'utilise "
 
 switch (material) {
     case "souris":
-        alert(phrase + material);
+        alert(phrase + "une " + material);
         break;
     case "clavier":
-        alert(phrase + material);
+        alert(phrase + "un " + material);
         break;
     case "ordinateur":
-        alert(phrase + material);
+        alert(phrase + "un "+ material);
         break;
     case "tapis":
-        alert(phrase + material);
+        alert(phrase + "un "+ material);
         break;
     case "imprimante":
-        alert(phrase + material);
+        alert(phrase + "une "+ material);
         break;
     case "ondulateur":
-        alert(phrase + material);
+        alert(phrase + "un "+ material);
         break;
     default:
         alert("non");
